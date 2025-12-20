@@ -1,2 +1,34 @@
-# junk-food-detection-yolo
-YOLO ve OpenCV kullanılarak geliştirilmiş, özel etiketli veri seti ile eğitilen gerçek zamanlı abur cubur tespit sistemi.
+🍫 YOLO11 ile Gerçek Zamanlı Abur Cubur Tespiti
+Bu proje, YOLO11n (Nano) mimarisi kullanılarak geliştirilmiş, gerçek zamanlı bir nesne tespiti (object detection) uygulamasıdır. Proje, kamera görüntüsü üzerinden çeşitli abur cubur ve atıştırmalık ürünlerini yüksek doğrulukla tespit etmek ve sınıflandırmak amacıyla yapılmıştır.
+
+🚀 Proje Hakkında
+Bu çalışmanın temel amacı, hazır veri setleri yerine tamamen özgün ve gerçek hayat senaryolarına uygun bir veri seti ile bir yapay zeka modeli eğitmektir. Model, düşük donanımlarda bile hızlı çalışabilmesi için YOLO11n versiyonu tercih edilerek optimize edilmiştir.
+
+Öne Çıkan Özellikler
+Özgün Veri Seti: İnternetten hazır alınan görseller değil, bizzat çekilen fotoğraflar kullanılmıştır.
+
+Manuel Etiketleme: Veri setindeki tüm nesneler (atıştırmalıklar) tarafımdan manuel olarak etiketlenmiştir (Labeling).
+
+En Güncel Teknoloji: Ultralytics'in en yeni modellerinden YOLO11n kullanılmıştır.
+
+Gerçek Zamanlı Tespit: OpenCV entegrasyonu ile webcam üzerinden anlık tespit yapar.
+
+🛠️ Kullanılan Teknolojiler
+Python: Ana programlama dili.
+
+Ultralytics YOLO11n: Nesne tespiti modeli
+
+OpenCV: Görüntü işleme ve kamera akışı için.
+
+LabelStudio: Label işlemleri için.
+
+📸 Veri Seti ve Eğitim Süreci
+Modelin başarısı büyük oranda veri setinin kalitesine dayanmaktadır:
+
+Veri Toplama: Farklı açılardan ve ışık koşullarında abur cubur paketlerinin fotoğrafları çekildi.
+
+Etiketleme (Labeling): Çekilen fotoğraflardaki nesneler tek tek işaretlenerek sınıflara ayrıldı.
+
+Eğitim (Training): Hazırlanan veri seti YOLO11n modeline beslendi ve model eğitildi (best.pt ağırlıkları elde edildi).
+Preview 
+<img width="931" height="636" alt="readme" src="https://github.com/user-attachments/assets/2a0fa535-257a-4c30-a449-a562becd43ab" />

@@ -32,5 +32,6 @@ Etiketleme (Labeling): Çekilen fotoğraflardaki nesneler tek tek işaretlenerek
 Eğitim (Training): Hazırlanan veri seti YOLO11n modeline beslendi ve model eğitildi (best.pt ağırlıkları elde edildi).
 
 PREVIEW:
-<img width="931" height="636" alt="readme" src="https://github.com/user-attachments/assets/9d370d5a-f87f-42dc-9268-016d87c22ca4" />
+
+<img width="480" height="640" alt="readme" src="https://github.com/user-attachments/assets/9d370d5a-f87f-42dc-9268-016d87c22ca4" />
 

@@ -30,5 +30,6 @@ Veri Toplama: Farklı açılardan ve ışık koşullarında abur cubur paketleri
 Etiketleme (Labeling): Çekilen fotoğraflardaki nesneler tek tek işaretlenerek sınıflara ayrıldı.
 
 Eğitim (Training): Hazırlanan veri seti YOLO11n modeline beslendi ve model eğitildi (best.pt ağırlıkları elde edildi).
-Preview 
+
+PREVIEW: 
 <img width="931" height="636" alt="readme" src="https://github.com/user-attachments/assets/2a0fa535-257a-4c30-a449-a562becd43ab" />
